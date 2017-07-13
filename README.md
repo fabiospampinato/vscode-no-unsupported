@@ -23,6 +23,10 @@ Unsupported: Remove // Removes [Unsupported] from the titlebar
 Unsupported: Restore // Restores it
 ```
 
+## Before/After
+
+![Before/After](resources/before_after.png)
+
 ## License
 
 MIT © Fabio Spampinato
