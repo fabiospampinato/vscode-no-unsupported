@@ -3,7 +3,7 @@
   "displayName": "No [Unsupported]",
   "description": "An extension for removing [Unsupported] from the titlebar",
   "icon": "resources/logo-128x128.png",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "main": "out/src/extension.js",
   "publisher": "fabiospampinato",
@@ -31,7 +31,8 @@
     "Other"
   ],
   "activationEvents": [
-    "*"
+    "onCommand:noUnsupported.remove",
+    "onCommand:noUnsupported.restore"
   ],
   "contributes": {
     "commands": [
