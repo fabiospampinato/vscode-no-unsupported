@@ -1,0 +1,65 @@
+{
+  "name": "vscode-no-unsupported",
+  "displayName": "No [Unsupported]",
+  "description": "An extension for removing [Unsupported] from the titlebar",
+  "icon": "resources/logo-128x128.png",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "out/src/extension.js",
+  "publisher": "fabiospampinato",
+  "author": {
+    "name": "Fabio Spampinato",
+    "email": "spampinabio@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/fabiospampinato/vscode-no-unsupported/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabiospampinato/vscode-no-unsupported"
+  },
+  "engines": {
+    "vscode": "^1.10.0"
+  },
+  "keywords": [
+    "vscode",
+    "vsc",
+    "extension",
+    "unsupported"
+  ],
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "noUnsupported.remove",
+        "title": "Unsupported: Remove"
+      },
+      {
+        "command": "noUnsupported.restore",
+        "title": "Unsupported: Restore"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./node_modules/vscode/bin/test"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1",
+    "pify": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.40",
+    "@types/lodash": "^4.14.59",
+    "typescript": "^2.0.3",
+    "vscode": "^1.1.4"
+  }
+}
