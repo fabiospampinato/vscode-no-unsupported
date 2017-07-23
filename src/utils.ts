@@ -33,12 +33,6 @@ const Utils = {
 
   file: {
 
-    open ( filepath ) {
-
-      return vscode.commands.executeCommand ( 'vscode.open', vscode.Uri.parse ( `file://${filepath}` ) );
-
-    },
-
     async make ( filepath, content ) {
 
       await pify ( mkdirp )( path.dirname ( filepath ) );
