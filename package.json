@@ -3,7 +3,7 @@
   "displayName": "No [Unsupported]",
   "description": "An extension for removing [Unsupported] from the titlebar",
   "icon": "resources/logo-128x128.png",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "license": "MIT",
   "main": "out/src/extension.js",
   "publisher": "fabiospampinato",
@@ -19,7 +19,7 @@
     "url": "https://github.com/fabiospampinato/vscode-no-unsupported"
   },
   "engines": {
-    "vscode": "^1.10.0"
+    "vscode": "^1.15.0"
   },
   "keywords": [
     "vscode",

@@ -1,3 +1,6 @@
+### Version 1.0.6
+- Updated to support VSC v1.15.0
+
 ### Version 1.0.5
 - Improved initialization logic
 

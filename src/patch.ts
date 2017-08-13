@@ -10,7 +10,7 @@ import Utils from './utils';
 
 const isWin = /^win/.test ( process.platform ),
       appDir = path.dirname ( require.main.filename ),
-      filepath = appDir + ( isWin ? '\\vs\\workbench\\electron-browser\\workbench.main.js' : '/vs/workbench/electron-browser/workbench.main.js' );
+      filepath = appDir + ( isWin ? '\\vs\\workbench\\workbench.main.js' : '/vs/workbench/workbench.main.js' );
 
 /* PATCH */
 
