@@ -1,3 +1,6 @@
+### Version 1.0.7
+- Updated readme
+
 ### Version 1.0.6
 - Updated to support VSC v1.15.0
 

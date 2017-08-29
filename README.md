@@ -19,8 +19,8 @@ ext install vscode-no-unsupported
 It adds 2 new commands to the command palette:
 
 ```js
-Unsupported: Remove // Removes [Unsupported] from the titlebar
-Unsupported: Restore // Restores it
+Unsupported: Remove // Remove [Unsupported] from the titlebar
+Unsupported: Restore // Restore it
 ```
 
 ## Before/After
