@@ -1,3 +1,6 @@
+### Version 1.0.8
+- Hopefully improved patching logic
+
 ### Version 1.0.7
 - Updated readme
 
