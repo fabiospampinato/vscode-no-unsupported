@@ -21,7 +21,9 @@ function reload () {
 
 async function remove () {
 
-  await patch ( ORIGINAL_FIND, ORIGINAL_REPLACE );
+  const patched = await patch ( ORIGINAL_FIND, ORIGINAL_REPLACE );
+
+  if ( patched === false ) return vscode.window.showErrorMessage ( 'Couldn\'t patch Visual Studio Code. Please open an issue about this' );
 
   const needsReload = await vscode.window.showInformationMessage ( '[Unsupported] removed. Reload window to take effect.', { title: 'Reload' } );
 
@@ -33,7 +35,9 @@ async function remove () {
 
 async function restore () {
 
-  await patch ( PATCHED_FIND, PATCHED_REPLACE );
+  const patched = await patch ( PATCHED_FIND, PATCHED_REPLACE );
+
+  if ( patched === false ) return vscode.window.showErrorMessage ( 'Couldn\'t patch Visual Studio Code. Please open an issue about this' );
 
   const needsReload = await vscode.window.showInformationMessage ( '[Unsupported] restored. Reload window to take effect.', { title: 'Reload' } );
 

@@ -6,6 +6,8 @@
 
 An extension for removing [Unsupported] from the titlebar.
 
+If you're using this under **Windows**, Visual Studio Code must be running as an administrator.
+
 ## Install
 
 Run the following in the command palette:

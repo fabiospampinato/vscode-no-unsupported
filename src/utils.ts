@@ -44,7 +44,7 @@ const Utils = {
     async read ( filepath ) {
 
       try {
-        return (  await pify ( fs.readFile )( filepath, { encoding: 'utf8' } ) ).toString ();
+        return ( await pify ( fs.readFile )( filepath, { encoding: 'utf8' } ) ).toString ();
       } catch ( e ) {
         return;
       }
