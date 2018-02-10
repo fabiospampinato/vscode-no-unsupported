@@ -6,10 +6,10 @@ import patch from './patch'
 
 /* VARIABLES */
 
-const ORIGINAL_FIND = /this\.isPure\|\|\(([a-zA-Z])=([a-zA-Z])\+" "\+([a-zA-Z])\.NLS_UNSUPPORTED\)/,
-      ORIGINAL_REPLACE = 'this.isPure||($1,$3,"__vscode-no-unsupported__")',
-      PATCHED_FIND = /this\.isPure\|\|\(([a-zA-Z]),([a-zA-Z]),"__vscode-no-unsupported__"\)/,
-      PATCHED_REPLACE = 'this.isPure||($1=$1+" "+$2.NLS_UNSUPPORTED)';
+const ORIGINAL_FIND = /this(\.properties)?\.isPure\|\|\(([a-zA-Z])=([a-zA-Z])\+" "\+([a-zA-Z])\.NLS_UNSUPPORTED\)/,
+      ORIGINAL_REPLACE = 'this$1.isPure||($2,$4,"__vscode-no-unsupported__")',
+      PATCHED_FIND = /this(\.properties)?\.isPure\|\|\(([a-zA-Z]),([a-zA-Z]),"__vscode-no-unsupported__"\)/,
+      PATCHED_REPLACE = 'this$1.isPure||($2=$2+" "+$3.NLS_UNSUPPORTED)';
 
 /* HELPERS */
 
