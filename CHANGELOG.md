@@ -1,3 +1,6 @@
+### Version 1.1.0
+- Added support for VSC v1.20
+
 ### Version 1.0.8
 - Hopefully improved patching logic
 
