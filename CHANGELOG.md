@@ -1,3 +1,6 @@
+### Version 1.1.1
+- Updated readme
+
 ### Version 1.1.0
 - Added support for VSC v1.20
 
