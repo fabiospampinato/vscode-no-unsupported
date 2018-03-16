@@ -1,4 +1,4 @@
-# VSC No Unsupported
+# No Unsupported
 
 <p align="center">
 	<img src="https://raw.githubusercontent.com/fabiospampinato/vscode-no-unsupported/master/resources/logo-128x128.png" alt="Logo">
@@ -10,10 +10,10 @@ If you're using this under **Windows**, Visual Studio Code must be running as an
 
 ## Install
 
-Run the following in the command palette:
+Follow the instructions in the [Marketplace](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-no-unsupported), or run the following in the command palette:
 
 ```shell
-ext install vscode-no-unsupported
+ext install fabiospampinato.vscode-no-unsupported
 ```
 
 ## Usage
