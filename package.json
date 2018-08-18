@@ -1,7 +1,7 @@
 {
   "name": "vscode-no-unsupported",
   "displayName": "No [Unsupported]",
-  "description": "An extension for removing [Unsupported] from the titlebar",
+  "description": "An extension for removing \"[Unsupported]\" from the titlebar",
   "icon": "resources/logo-128x128.png",
   "version": "1.1.1",
   "license": "MIT",
