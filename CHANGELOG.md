@@ -1,3 +1,6 @@
+### Version 1.1.2
+- Deprecated in favor of “Fix VSCode Checksums”
+
 ### Version 1.1.1
 - Updated readme
 
